@@ -1,0 +1,64 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.pem
+*.key
+*.pfx
+*.p12
+
+# Raw exports and local analytical files, wherever placed
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsb
+*.parquet
+*.feather
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+*.pbix
+*.pbit
+
+# Data is private by default. Only reviewed synthetic examples belong here.
+/data/*
+!/data/synthetic/
+!/data/synthetic/README.md
+!/data/synthetic/*.csv
+
+# Identity mappings remain excluded, including under synthetic data.
+mapping/
+mappings/
+*mapping*.csv
+*crosswalk*.csv
+
+# Private source material and runtime outputs
+private/
+raw/
+exports/
+/outputs/
+/logs/
+/reports/private/
+
+# Python and notebooks
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node tools, operating systems, and local editor files
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.log
+*.tmp
+*.bak
