@@ -5,10 +5,10 @@ from decimal import Decimal
 from pathlib import Path
 
 
-def calculate_net_revenue(transaction):
+def calculate_net_revenue(transaction, extra_rebate="0.00"):
     interchange = Decimal(transaction["interchange_amount"])
     rebate = Decimal(transaction["rebate_amount"])
-    return interchange - rebate
+    return interchange - rebate - Decimal(extra_rebate)
 
 
 csv_path = (
@@ -21,8 +21,8 @@ csv_path = (
 with csv_path.open(newline="", encoding="utf-8") as csv_file:
     transactions = list(csv.DictReader(csv_file))
 
-first_transaction = transactions[0]
-net_revenue = calculate_net_revenue(first_transaction)
+first_transaction = transactions[2]
+net_revenue = calculate_net_revenue(first_transaction, extra_rebate="0.00")
 
 print(f"Transactions loaded: {len(transactions)}")
 print(f"Customer ID: {first_transaction['customer_id']}")
