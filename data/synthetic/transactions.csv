@@ -1,0 +1,51 @@
+business_line,customer_name,customer_id,vendor_name,spend_amount,interchange_amount,rebate_amount,revenue_amount,transaction_description,client_segment,settlement_date,card_product,mcc
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,1000.00,25.00,10.00,15.00,Standard,Small Business,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,1000.00,25.00,10.00,15.00,Standard,Small Business,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Silver Compass Services,1000.00,30.00,10.00,20.00,Premium,Small Business,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Silver Compass Services,1000.00,30.00,10.00,20.00,Premium,Small Business,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Paper Kite Supply,100000.00,2500.00,1000.00,1500.00,Standard,Enterprise,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Paper Kite Supply,100000.00,2500.00,1000.00,1500.00,Standard,Enterprise,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Silver Compass Services,100000.00,3000.00,1000.00,2000.00,Premium,Enterprise,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Silver Compass Services,100000.00,3000.00,1000.00,2000.00,Premium,Enterprise,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Silver Compass Services,7500.00,225.00,75.00,150.00,Premium,Midmarket,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Silver Compass Services,7500.00,225.00,75.00,150.00,Premium,Midmarket,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Paper Kite Supply,2500.00,62.50,25.00,37.50,Standard,Midmarket,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Paper Kite Supply,100.00,2.50,1.00,1.50,Standard,Small Business,2026-08-03,Virtual,0011
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Paper Kite Supply,100.00,2.50,1.00,1.50,Standard,Small Business,2026-08-10,Virtual,0011
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Silver Compass Services,100.00,3.00,1.00,2.00,Premium,Small Business,2026-08-17,Plastic,0022
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Silver Compass Services,100.00,3.00,1.00,2.00,Premium,Small Business,2026-08-24,Plastic,0022
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,-1000.00,-25.00,-10.00,-15.00,Refund,Small Business,2026-08-28,Virtual,0011
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,1000.00,25.00,10.00,15.00,Standard,Small Business,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,1000.00,25.00,10.00,15.00,Standard,Small Business,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Silver Compass Services,1000.00,30.00,10.00,20.00,Premium,Small Business,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Silver Compass Services,1000.00,30.00,10.00,20.00,Premium,Small Business,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Paper Kite Supply,75000.00,1875.00,750.00,1125.00,Standard,Enterprise,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Paper Kite Supply,75000.00,1875.00,750.00,1125.00,Standard,Enterprise,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Silver Compass Services,75000.00,2250.00,750.00,1500.00,Premium,Enterprise,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Granite Harbor Works,0002,Demo Silver Compass Services,75000.00,2250.00,750.00,1500.00,Premium,Enterprise,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Paper Kite Supply,7500.00,187.50,75.00,112.50,Standard,Midmarket,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Paper Kite Supply,7500.00,187.50,75.00,112.50,Standard,Midmarket,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Maple Orbit Supply,0003,Demo Silver Compass Services,2500.00,75.00,25.00,50.00,Premium,Midmarket,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Paper Kite Supply,2500.00,50.00,25.00,25.00,Standard,Midmarket,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Paper Kite Supply,2500.00,50.00,25.00,25.00,Standard,Midmarket,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Silver Compass Services,2500.00,62.50,25.00,37.50,Premium,Midmarket,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Blue Finch Services,0004,Demo Silver Compass Services,2500.00,62.50,25.00,37.50,Premium,Midmarket,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Paper Kite Supply,2500.00,62.50,35.00,27.50,Standard,Midmarket,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Paper Kite Supply,2500.00,62.50,35.00,27.50,Standard,Midmarket,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Silver Compass Services,2500.00,75.00,35.00,40.00,Premium,Midmarket,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Amber Bridge Goods,0005,Demo Silver Compass Services,2500.00,75.00,35.00,40.00,Premium,Midmarket,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Paper Kite Supply,100.00,1.00,1.50,-0.50,Standard,Small Business,2026-09-03,Virtual,0011
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Paper Kite Supply,100.00,1.00,1.50,-0.50,Standard,Small Business,2026-09-10,Virtual,0011
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Silver Compass Services,100.00,1.50,1.50,0.00,Premium,Small Business,2026-09-17,Plastic,0022
+Fictional Commercial Payments,Demo Tiny Comet Shop,0006,Demo Silver Compass Services,100.00,1.50,1.50,0.00,Premium,Small Business,2026-09-24,Plastic,0022
+Fictional Commercial Payments,Demo Cedar Lantern Studio,0001,Demo Paper Kite Supply,-1000.00,-25.00,-10.00,-15.00,Refund,Small Business,2026-09-28,Virtual,0011

@@ -4,7 +4,21 @@ An analytics project that investigates why net revenue changed between comparabl
 
 The planned agent will examine settled spend, interchange mix, customer rebates, and net revenue yield. It will explain the largest changes in both dollars and rates, show supporting metrics, and suggest follow-up questions for human review.
 
-**Status:** Project design and synthetic data preparation. The agent, analytical skills, and dataset have not been implemented yet.
+**Status:** A reviewed fictional transaction CSV, known expected results, dataset checks, and the first Python exercise are available. The investigation agent and full analytical tools have not been implemented yet.
+
+## Start with the data and Night 6
+
+Use [the synthetic transaction CSV](data/synthetic/transactions.csv) for both the project and the beginner exercise. It contains 50 fictional rows across August and September 2026, with the thirteen documented columns.
+
+Follow [Night 6 in GitHub Codespaces](docs/night-06-codespaces.md) to read the CSV into a list of dictionaries, calculate one transaction's net revenue, and change a small Python function. The repository files are already present in a codespace; no CSV upload is needed.
+
+From the repository root:
+
+```bash
+python3 lessons/night_06.py
+```
+
+The original first-row result is **25.00 interchange - 10.00 rebate = 15.00 net revenue**. [Dataset notes and monthly controls](data/synthetic/README.md) explain the designed patterns. The [expected-results record](docs/synthetic-expected-results.json) supplies known amounts for later analytical checks.
 
 ## Business questions
 
@@ -46,7 +60,7 @@ Rate rankings include all comparable groups with valid positive spend by default
 
 The dataset has **13 generic columns**, with one row per fictional settled transaction. It uses USD, settlement-date reporting, complete comparison periods, consistent customer/category representation, and a distinct refund categorization.
 
-All customer names, IDs, vendor names, categories, amounts, and rates will be invented. The current specification uses generic fields without internal source mappings. See the [synthetic data requirements](docs/data-contract.md) and [data folder notes](data/synthetic/README.md).
+All customer names, IDs, vendor names, categories, amounts, and rates in the starter dataset are invented. The current specification uses generic fields without internal source mappings. See the [synthetic data requirements](docs/data-contract.md) and [data folder notes](data/synthetic/README.md).
 
 ## Repository contents
 
@@ -57,20 +71,29 @@ docs/
   business-questions.md
   data-contract.md
   learning-log.md
+  night-06-codespaces.md
+  synthetic-expected-results.json
 data/
   synthetic/
     README.md
+    transactions.csv
+lessons/
+  night_06.py
+tests/
+  test_synthetic_data.py
 ```
 
 The `.gitignore` excludes common raw exports, private data folders, credentials, and generated outputs. Reviewed synthetic CSV files in `data/synthetic/` are allowed through the CSV rules. Ignore rules do not inspect file contents, protect access, or remove earlier commits.
 
 ## Next milestones
 
-- Generate fictional transactions using the agreed 13-column layout.
-- Record the expected results for the evaluation scenarios.
+- Complete the Night 6 exercise personally: run, modify, and explain the Python function.
+- Add separately labeled fault fixtures for the remaining evaluation scenarios.
 - Implement and verify the analytical calculations.
 - Write reusable analysis skills for validation, period comparison, mix investigation, driver ranking, and evidence-based explanations.
 - Connect those skills to read-only tools and evaluate the question-to-answer workflow.
+
+Validate the starter dataset with `python3 -m unittest discover -s tests -v`. The project is still in progress; this first exercise does not implement the investigation agent.
 
 Progress and decisions are recorded in the [learning log](docs/learning-log.md).
 

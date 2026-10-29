@@ -1,0 +1,263 @@
+{
+  "title": "Revenue variance starter transactions",
+  "synthetic": true,
+  "provenance": "All identities, transactions, rates, categories, and illustrative MCC labels were invented from scratch. No company data or internal mappings were used.",
+  "columns": [
+    "business_line",
+    "customer_name",
+    "customer_id",
+    "vendor_name",
+    "spend_amount",
+    "interchange_amount",
+    "rebate_amount",
+    "revenue_amount",
+    "transaction_description",
+    "client_segment",
+    "settlement_date",
+    "card_product",
+    "mcc"
+  ],
+  "periods": {
+    "2026-08": {
+      "coverage_start": "2026-08-01",
+      "coverage_end": "2026-08-31",
+      "complete": true,
+      "expected_rows": 25
+    },
+    "2026-09": {
+      "coverage_start": "2026-09-01",
+      "coverage_end": "2026-09-30",
+      "complete": true,
+      "expected_rows": 25
+    }
+  },
+  "coverage_note": "The generator declares full comparison-month coverage; there are simply no synthetic transactions on other dates. Observed min/max transaction dates alone do not establish period completeness.",
+  "category_definitions": {
+    "Standard": "Invented regular purchase category with the lower baseline gross interchange rate.",
+    "Premium": "Invented regular purchase category with the higher baseline gross interchange rate.",
+    "Refund": "Signed reversal of a matching earlier Standard purchase for customer 0001 in that month."
+  },
+  "mcc_note": "0011 and 0022 are illustrative invented teaching labels, not mappings to an industry MCC taxonomy. Treat them as text.",
+  "expected": {
+    "monthly": {
+      "2026-08": {
+        "row_count": 25,
+        "spend_amount": "443400.00",
+        "interchange_amount": "12221.00",
+        "rebate_amount": "4434.00",
+        "revenue_amount": "7787.00",
+        "gross_interchange_rate": "0.02756202074875958502480829950",
+        "rebate_rate": "0.01",
+        "net_revenue_yield": "0.01756202074875958502480829950"
+      },
+      "2026-09": {
+        "row_count": 25,
+        "spend_amount": "343400.00",
+        "interchange_amount": "9365.00",
+        "rebate_amount": "3476.00",
+        "revenue_amount": "5889.00",
+        "gross_interchange_rate": "0.02727140361094933022714036109",
+        "rebate_rate": "0.01012230634828188701223063483",
+        "net_revenue_yield": "0.01714909726266744321490972627"
+      }
+    },
+    "customers": {
+      "0001": {
+        "customer_name": "Demo Cedar Lantern Studio",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "3000.00",
+            "interchange_amount": "85.00",
+            "rebate_amount": "30.00",
+            "revenue_amount": "55.00",
+            "gross_interchange_rate": "0.02833333333333333333333333333",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.01833333333333333333333333333"
+          },
+          "2026-09": {
+            "spend_amount": "3000.00",
+            "interchange_amount": "85.00",
+            "rebate_amount": "30.00",
+            "revenue_amount": "55.00",
+            "gross_interchange_rate": "0.02833333333333333333333333333",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.01833333333333333333333333333"
+          }
+        },
+        "spend_variance": "0.00",
+        "net_revenue_variance": "0.00",
+        "net_revenue_yield_change_bps": "0E-29"
+      },
+      "0002": {
+        "customer_name": "Demo Granite Harbor Works",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "400000.00",
+            "interchange_amount": "11000.00",
+            "rebate_amount": "4000.00",
+            "revenue_amount": "7000.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0175"
+          },
+          "2026-09": {
+            "spend_amount": "300000.00",
+            "interchange_amount": "8250.00",
+            "rebate_amount": "3000.00",
+            "revenue_amount": "5250.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0175"
+          }
+        },
+        "spend_variance": "-100000.00",
+        "net_revenue_variance": "-1750.00",
+        "net_revenue_yield_change_bps": "0.0000"
+      },
+      "0003": {
+        "customer_name": "Demo Maple Orbit Supply",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "20000.00",
+            "interchange_amount": "575.00",
+            "rebate_amount": "200.00",
+            "revenue_amount": "375.00",
+            "gross_interchange_rate": "0.02875",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.01875"
+          },
+          "2026-09": {
+            "spend_amount": "20000.00",
+            "interchange_amount": "525.00",
+            "rebate_amount": "200.00",
+            "revenue_amount": "325.00",
+            "gross_interchange_rate": "0.02625",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.01625"
+          }
+        },
+        "spend_variance": "0.00",
+        "net_revenue_variance": "-50.00",
+        "net_revenue_yield_change_bps": "-25.00000"
+      },
+      "0004": {
+        "customer_name": "Demo Blue Finch Services",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "10000.00",
+            "interchange_amount": "275.00",
+            "rebate_amount": "100.00",
+            "revenue_amount": "175.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0175"
+          },
+          "2026-09": {
+            "spend_amount": "10000.00",
+            "interchange_amount": "225.00",
+            "rebate_amount": "100.00",
+            "revenue_amount": "125.00",
+            "gross_interchange_rate": "0.0225",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0125"
+          }
+        },
+        "spend_variance": "0.00",
+        "net_revenue_variance": "-50.00",
+        "net_revenue_yield_change_bps": "-50.0000"
+      },
+      "0005": {
+        "customer_name": "Demo Amber Bridge Goods",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "10000.00",
+            "interchange_amount": "275.00",
+            "rebate_amount": "100.00",
+            "revenue_amount": "175.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0175"
+          },
+          "2026-09": {
+            "spend_amount": "10000.00",
+            "interchange_amount": "275.00",
+            "rebate_amount": "140.00",
+            "revenue_amount": "135.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.014",
+            "net_revenue_yield": "0.0135"
+          }
+        },
+        "spend_variance": "0.00",
+        "net_revenue_variance": "-40.00",
+        "net_revenue_yield_change_bps": "-40.0000"
+      },
+      "0006": {
+        "customer_name": "Demo Tiny Comet Shop",
+        "periods": {
+          "2026-08": {
+            "spend_amount": "400.00",
+            "interchange_amount": "11.00",
+            "rebate_amount": "4.00",
+            "revenue_amount": "7.00",
+            "gross_interchange_rate": "0.0275",
+            "rebate_rate": "0.01",
+            "net_revenue_yield": "0.0175"
+          },
+          "2026-09": {
+            "spend_amount": "400.00",
+            "interchange_amount": "5.00",
+            "rebate_amount": "6.00",
+            "revenue_amount": "-1.00",
+            "gross_interchange_rate": "0.0125",
+            "rebate_rate": "0.015",
+            "net_revenue_yield": "-0.0025"
+          }
+        },
+        "spend_variance": "0.00",
+        "net_revenue_variance": "-8.00",
+        "net_revenue_yield_change_bps": "-200.0000"
+      }
+    },
+    "month_over_month": {
+      "prior_period": "2026-08",
+      "current_period": "2026-09",
+      "spend_variance": "-100000.00",
+      "interchange_variance": "-2856.00",
+      "rebate_variance": "-958.00",
+      "net_revenue_variance": "-1898.00",
+      "largest_absolute_dollar_driver_customer_id": "0002",
+      "largest_absolute_yield_change_customer_id": "0006"
+    },
+    "first_row": {
+      "customer_id": "0001",
+      "spend_amount": "1000.00",
+      "interchange_amount": "25.00",
+      "rebate_amount": "10.00",
+      "net_revenue": "15.00"
+    },
+    "refunds": {
+      "row_count": 2,
+      "spend_per_month": "-1000.00",
+      "interchange_per_month": "-25.00",
+      "rebate_per_month": "-10.00",
+      "net_revenue_per_month": "-15.00"
+    }
+  },
+  "scenario_notes": {
+    "0001": "Stable baseline with identical signed full refunds in each month. Each refund reverses one 1000.00 Standard purchase; net totals include it.",
+    "0002": "Spend falls 400000.00 to 300000.00 with identical category shares and rates. Net revenue falls 1750.00 at a constant 1.75% yield.",
+    "0003": "Spend stays 20000.00; Standard share rises 25% to 75% while category rates/rebates stay fixed. Net revenue falls 50.00 and yield falls 25 basis points.",
+    "0004": "Spend and category shares stay fixed; gross rates fall 50 basis points within both categories. Net revenue falls 50.00 and yield falls 50 basis points.",
+    "0005": "Spend, category mix, and gross rates stay fixed; rebate rate rises 1.00% to 1.40%. Net revenue falls 40.00 and yield falls 40 basis points.",
+    "0006": "Small customer remains at 400.00 spend; combined lower gross rates and higher rebates move yield from 1.75% to -0.25%, a 200-basis-point decline. Net revenue falls 8.00 to -1.00; retain in positive-spend rate rankings."
+  },
+  "limitations": [
+    "A small valid teaching dataset; not representative of real payment economics or market pricing.",
+    "No formal volume/mix/rate dollar-attribution bridge is supplied; each customer pattern is deliberately controlled and documented.",
+    "Malformed inputs, missing periods/values, inconsistent revenue, and zero-spend denominator cases are not in the valid starter file. Create separate evaluation fixtures later for those tests.",
+    "Dollar, vendor, and category views describe overlapping financial populations and must not be added together."
+  ],
+  "dataset_file": "data/synthetic/transactions.csv",
+  "row_count": 50
+}
