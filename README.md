@@ -4,7 +4,17 @@ An analytics project that investigates why net revenue changed between comparabl
 
 The planned agent will examine settled spend, interchange mix, customer rebates, and net revenue yield. It will explain the largest changes in both dollars and rates, show supporting metrics, and suggest follow-up questions for human review.
 
-**Status:** A reviewed fictional transaction CSV, known expected results, dataset checks, and the first Python exercise are available. The investigation agent and full analytical tools have not been implemented yet.
+**Status:** A reviewed fictional transaction CSV, known expected results, dataset checks, the first Python exercise, and a runnable sample review are available. The investigation agent and full analytical tools have not been implemented yet.
+
+## Run the sample review
+
+From the repository root in Codespaces:
+
+```bash
+python3 scripts/sample_review.py
+```
+
+The [sample review](scripts/sample_review.py) compares September with August 2026 using the synthetic CSV. It reports monthly totals, separates the spend and blended yield effects on net revenue, and ranks customers, vendors, and interchange categories by dollar impact and yield movement. It uses the Python standard library.
 
 ## Start with the data and Night 6
 
